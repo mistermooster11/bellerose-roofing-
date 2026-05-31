@@ -20,6 +20,7 @@ export default function AboutPage() {
       <PageHeroSection
         title="About Us"
         subtitle="Family-owned roofing, siding, and window specialists serving the 5 boroughs, Nassau, and Suffolk County for over 35 years."
+        backgroundImage="/images/masthead-about.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "About Us" },

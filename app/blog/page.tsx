@@ -17,6 +17,7 @@ export default function BlogPage() {
       <PageHeroSection
         title="Roofing Blog"
         subtitle="Tips, guides, and resources from the team at Bellerose Roofing & Siding."
+        backgroundImage="/images/masthead-blog.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Blog" },
