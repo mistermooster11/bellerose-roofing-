@@ -12,7 +12,7 @@ export type BlogPost = {
 export const blogPosts: BlogPost[] = [
   {
     slug: "/blog/how-to-spot-roof-damage-after-a-storm/",
-    image: "/images/blog-3.png",
+    image: "/images/blog-storm-damage.jpg",
     date: "15",
     monthYear: "May '26",
     category: "Roofing Tips",
@@ -23,7 +23,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "/blog/repair-vs-replace-how-to-decide/",
-    image: "/images/blog-2.png",
+    image: "/images/blog-repair-vs-replace.jpg",
     date: "01",
     monthYear: "Apr '26",
     category: "Roofing Tips",

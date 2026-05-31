@@ -18,6 +18,7 @@ export default function ServicesPage() {
       <PageHeroSection
         title="Our Services"
         subtitle="Roofing, siding, and window services for residential and commercial properties across the 5 boroughs, Nassau County, and Suffolk County."
+        backgroundImage="/images/masthead-services.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Services" },

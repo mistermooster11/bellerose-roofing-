@@ -16,6 +16,7 @@ export default function ContactPage() {
       <PageHeroSection
         title="Contact Us"
         subtitle="Request a free estimate — we inspect, document with photos, and give you a written quote before any work begins."
+        backgroundImage="/images/masthead-contact.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Contact" },
