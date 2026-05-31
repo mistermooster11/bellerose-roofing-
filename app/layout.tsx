@@ -5,6 +5,7 @@ import "@/styles/client-theme.css";
 import Header from "@/components/custom/header/Header";
 import Footer from "@/components/custom/footer/Footer";
 import PageTransition from "@/components/custom/page-transition/PageTransition";
+import SalePopup from "@/components/custom/popup/SalePopup";
 import { Geist } from "next/font/google";
 import { cn } from "@/lib/utils";
 
@@ -102,6 +103,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
         />
         <PageTransition />
+        <SalePopup businessName="Bellerose Roofing & Siding" expiryDate="June 7, 2026" />
         <Header />
         <main>{children}</main>
         <Footer />
