@@ -94,12 +94,12 @@ export default function ContactSection() {
             <div className="contact-section__details-col">
               <h5 className="contact-detail__label">Phone</h5>
               <p className="contact-detail__value">
-                <Link href="tel:(305) 339 5638">(305) 339 5638</Link>
+                <Link href="tel:5163550977">(516) 355-0977</Link>
               </p>
 
               <h5 className="contact-detail__label">Email</h5>
               <p className="contact-detail__value">
-                <Link href="mailto:contact@unclogme.com">contact@unclogme.com</Link>
+                <Link href="mailto:info@belleroseroofing.com">info@belleroseroofing.com</Link>
               </p>
             </div>
 

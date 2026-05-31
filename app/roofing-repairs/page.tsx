@@ -19,6 +19,7 @@ export default function RoofingRepairsPage() {
       <PageHeroSection
         title="Roofing Repairs"
         subtitle="Expert repairs for all roof types across NYC, Nassau & Suffolk County — with free estimates and no pressure."
+        backgroundImage="/images/masthead-roofing-repairs.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Services", href: "/services-page/" },

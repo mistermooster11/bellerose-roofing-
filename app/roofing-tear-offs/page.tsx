@@ -19,6 +19,7 @@ export default function RoofingTearOffsPage() {
       <PageHeroSection
         title="Roofing Tear-Offs & New Installs"
         subtitle="Full roof replacements done right — tear-off, deck inspection, and a brand-new system installed to spec. Free estimates across NYC & Long Island."
+        backgroundImage="/images/masthead-roofing-tear-offs.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Services", href: "/services-page/" },

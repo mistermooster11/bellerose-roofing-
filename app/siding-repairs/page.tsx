@@ -19,6 +19,7 @@ export default function SidingRepairsPage() {
       <PageHeroSection
         title="Siding Repairs"
         subtitle="Vinyl, aluminum, and wood siding repairs across the 5 boroughs, Nassau, and Suffolk — protecting your home and boosting curb appeal."
+        backgroundImage="/images/masthead-siding-repairs.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Services", href: "/services-page/" },

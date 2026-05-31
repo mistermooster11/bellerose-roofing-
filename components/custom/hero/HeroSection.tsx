@@ -51,13 +51,23 @@ export default function HeroSection() {
 
   return (
     <section className="hero">
-      {/* Hero background image */}
+      {/* Hero background video */}
       <div className="hero__video-bg">
-        <img
-          src="/images/hero-bg.jpg"
-          alt=""
+        <iframe
+          src="https://customer-ip9lnkk65px0t3ak.cloudflarestream.com/d47b3b9e769e6492aa48616674ce7d7f/iframe?autoplay=true&muted=true&loop=true&controls=false&preload=true"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowFullScreen
           aria-hidden="true"
-          style={{ width: "100%", height: "100%", objectFit: "cover" }}
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            border: "none",
+            objectFit: "cover",
+            pointerEvents: "none",
+          }}
         />
       </div>
 

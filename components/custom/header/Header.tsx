@@ -66,7 +66,7 @@ export default function Header() {
         <div className="header__logo">
           <Link href="/">
             <Image
-              src="/logos/Bellrose_logo_white.png"
+              src="/Bellrose_logo_green.png"
               alt="Bellerose Roofing &amp; Siding"
               width={200}
               height={60}

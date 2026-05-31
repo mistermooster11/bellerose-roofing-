@@ -19,6 +19,7 @@ export default function WindowsSkylightsPage() {
       <PageHeroSection
         title="Windows & Skylights"
         subtitle="Energy-efficient window replacement and skylight installation — properly flashed and sealed to last. Free estimates across NYC & Long Island."
+        backgroundImage="/images/masthead-windows-skylights.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Services", href: "/services-page/" },
