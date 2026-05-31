@@ -1,0 +1,6 @@
+/* ── Belle Rose Roofing & Siding — Brand Color Overrides ─────────────────── */
+/* Overrides Unclog template defaults in globals.css                           */
+
+:root {
+  --color-accent: #4CAF51;     /* Belle Rose green — buttons, CTAs, highlights */
+}
