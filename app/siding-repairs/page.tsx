@@ -28,7 +28,7 @@ export default function SidingRepairsPage() {
       />
       <ServiceDetailSection
         activeService="Siding Repairs"
-        sidebarImage="/images/service-2.png"
+        sidebarImage="/images/service-siding-repairs.jpg"
         sidebarImageWidth={535}
         sidebarImageHeight={643}
         heading="Siding Repair & Replacement in NYC & Long Island"

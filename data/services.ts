@@ -23,7 +23,7 @@ export const services: Service[] = [
   {
     number: "01",
     title: "Roofing Repairs",
-    image: "/images/service-1.png",
+    image: "/images/service-roofing-repairs.jpg",
     href: "/roofing-repairs/",
     width: 535,
     height: 643,
@@ -31,7 +31,7 @@ export const services: Service[] = [
   {
     number: "02",
     title: "Siding Repairs",
-    image: "/images/service-2.png",
+    image: "/images/service-siding-repairs.jpg",
     href: "/siding-repairs/",
     width: 535,
     height: 643,
@@ -39,7 +39,7 @@ export const services: Service[] = [
   {
     number: "03",
     title: "Roofing Tear-Offs & New Installs",
-    image: "/images/service-3.webp",
+    image: "/images/service-roofing-tear-offs.jpg",
     href: "/roofing-tear-offs/",
     width: 535,
     height: 643,
@@ -47,7 +47,7 @@ export const services: Service[] = [
   {
     number: "04",
     title: "Windows & Skylights",
-    image: "/images/service-4.webp",
+    image: "/images/service-windows-skylights.jpg",
     href: "/windows-skylights/",
     width: 535,
     height: 643,

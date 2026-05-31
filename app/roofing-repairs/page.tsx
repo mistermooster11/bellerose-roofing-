@@ -28,7 +28,7 @@ export default function RoofingRepairsPage() {
       />
       <ServiceDetailSection
         activeService="Roofing Repairs"
-        sidebarImage="/images/service-1.png"
+        sidebarImage="/images/service-roofing-repairs.jpg"
         sidebarImageWidth={535}
         sidebarImageHeight={643}
         heading="Roof Repair Specialists in NYC & Long Island"

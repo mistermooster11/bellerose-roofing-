@@ -28,7 +28,7 @@ export default function WindowsSkylightsPage() {
       />
       <ServiceDetailSection
         activeService="Windows & Skylights"
-        sidebarImage="/images/service-4.webp"
+        sidebarImage="/images/service-windows-skylights.jpg"
         sidebarImageWidth={535}
         sidebarImageHeight={643}
         heading="Window & Skylight Installation in NYC & Long Island"

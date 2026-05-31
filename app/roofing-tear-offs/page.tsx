@@ -28,7 +28,7 @@ export default function RoofingTearOffsPage() {
       />
       <ServiceDetailSection
         activeService="Roofing Tear-Offs & New Installs"
-        sidebarImage="/images/service-3.webp"
+        sidebarImage="/images/service-roofing-tear-offs.jpg"
         sidebarImageWidth={535}
         sidebarImageHeight={643}
         heading="Full Roof Replacement in NYC & Long Island"

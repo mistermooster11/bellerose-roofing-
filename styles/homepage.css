@@ -46,6 +46,20 @@
   display: block;
 }
 
+/* Full-bleed iframe video (Cloudflare Stream) */
+.hero__video-bg iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 56.25vw; /* 16:9 */
+  min-height: 100%;
+  min-width: 177.78vh; /* 16:9 */
+  transform: translate(-50%, -50%);
+  border: none;
+  pointer-events: none;
+}
+
 /* Fallback: static BG image for when video hasn't loaded */
 .hero__bg-image {
   position: absolute;
