@@ -114,10 +114,9 @@ export default function SalePopup({ businessName, expiryDate }: SalePopupProps) 
               Hey {businessName} — we built this for you.
             </h2>
 
-            {/* Lead copy */}
+            {/* Subheading */}
             <p className="mb-5 text-sm leading-relaxed text-gray-600">
-              Your online presence deserves to go pro. Take a look around — every detail of this site
-              was built specifically for you and your business.
+              This site is live and ready to go. We wanted you to see it before we offer it to anyone else.
             </p>
 
             {/* Bullets */}
@@ -125,6 +124,7 @@ export default function SalePopup({ businessName, expiryDate }: SalePopupProps) 
               {[
                 <>Built to rank on Google <em>and</em> show up when people search on ChatGPT or Siri.</>,
                 'Fully custom to your trade, your area, and your reputation.',
+                'Every detail of this site was built specifically for you and your business.',
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-2.5 text-sm text-gray-700" style={{ lineHeight: '1.55' }}>
                   <span
@@ -145,7 +145,7 @@ export default function SalePopup({ businessName, expiryDate }: SalePopupProps) 
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
                 <circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" />
               </svg>
-              This site stays live until&nbsp;<strong style={{ color: '#dc2626' }}>{expiryDate}</strong>
+              This site will be deleted from our server on&nbsp;<strong style={{ color: '#dc2626' }}>{expiryDate}</strong>
             </p>
 
             {/* WhatsApp CTA */}
