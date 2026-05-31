@@ -103,7 +103,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
         />
         <PageTransition />
-        <SalePopup businessName="Bellerose Roofing & Siding" expiryDate="June 7, 2026" />
+        <SalePopup businessName="Bellerose Roofing & Siding" expiryDate="June 7, 2026" trade="roofers" />
         <Header />
         <main>{children}</main>
         <Footer />

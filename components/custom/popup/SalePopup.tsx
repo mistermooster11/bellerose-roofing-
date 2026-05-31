@@ -13,9 +13,10 @@ const DELAY_MS = 11000
 interface SalePopupProps {
   businessName: string
   expiryDate: string
+  trade: string
 }
 
-export default function SalePopup({ businessName, expiryDate }: SalePopupProps) {
+export default function SalePopup({ businessName, expiryDate, trade }: SalePopupProps) {
   const [phase, setPhase] = useState<'hidden' | 'open' | 'pill'>('hidden')
   const [visible, setVisible] = useState(false)
 
@@ -122,7 +123,7 @@ export default function SalePopup({ businessName, expiryDate }: SalePopupProps) 
             {/* Bullets */}
             <ul className="mb-5 space-y-2.5">
               {[
-                <>Built to rank on Google <em>and</em> show up when people search on ChatGPT or Siri.</>,
+                <>Built to rank on Google <em>and</em> show up when people search on ChatGPT or Siri for {trade}.</>,
                 'Fully custom to your trade, your area, and your reputation.',
                 'Every detail of this site was built specifically for you and your business.',
               ].map((item, i) => (
@@ -145,7 +146,7 @@ export default function SalePopup({ businessName, expiryDate }: SalePopupProps) 
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
                 <circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" />
               </svg>
-              This site will be deleted from our server on&nbsp;<strong style={{ color: '#dc2626' }}>{expiryDate}</strong>
+              Site self-destructs from our server on&nbsp;<strong style={{ color: '#dc2626' }}>{expiryDate}</strong>
             </p>
 
             {/* WhatsApp CTA */}
